@@ -1,0 +1,14 @@
+.delievryTextBox{
+    width: 500px;
+    margin: 20px;
+}
+.deliveryTitle{
+    font-size: 1.5rem;
+    padding: 9px;
+    text-transform: capitalize;
+}
+.delievryP{
+    padding: 9px;
+    font-weight: lighter;
+    font-family: serif;
+}
