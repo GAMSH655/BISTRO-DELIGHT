@@ -20,9 +20,17 @@
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.171);
     border-radius: 15px;
 }
+.DeliveryBox:hover{
+    transition: .5s all ease-in;
+    background-color: black;
+    color: white;
+}
 .deliveryIcons{
   font-size: 2rem;
   margin: 10px;
+}
+.deliveryIcons:hover{
+    color: #FA4A0C;
 }
 .deliveryTitle{
     font-size: medium;
