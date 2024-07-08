@@ -12,3 +12,33 @@
     font-weight: lighter;
     font-family: serif;
 }
+.deliveryThreeBOx{
+    display: flex;
+}
+.DeliveryBox{
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.171);
+    border-radius: 15px;
+}
+.deliveryIcons{
+  font-size: 2rem;
+  margin: 10px;
+}
+.deliveryTitle{
+    font-size: medium;
+    font-weight:bold;
+}
+.delievryText{
+    margin: 10px;
+    font-family: sans-serif;
+}
+@media only screen and (max-width:768px) {
+    .deliveryThreeBOx{
+        display: flex;
+        flex-wrap: wrap;
+    } 
+    .delievryTextBox{
+        width: 350px;
+        margin: 0px;
+    }
+}
