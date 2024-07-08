@@ -81,12 +81,30 @@ const Menu = () => {
               </div>
               <div className="FloorGrid">
                  <h3 className="why">why choose bristo</h3>
-                 <p className="">Reasons why Bristo Delight is the number one stop for classic dining</p>
+                 <p className="why">Reasons why Bristo Delight is the number one stop for classic dining</p>
 
                <div className="AsideFlex">
-                 <img src={Table} alt="" />
-               </div>
+                 <img src={Table} alt="" className='table' />
+
                 <div className="asideGrid">
+                   <div className="GridCard">
+                     <span className="number">1</span>
+                     <h3 className="GridCardText">
+                     Exquisite Flavors
+                     </h3>
+                     <p className="gridParagraph">
+                     Our chefs craft each dish with the finest ingredients and culinary techniques to deliver unforgettable taste experiences
+                     </p>
+                   </div>
+                   <div className="GridCard">
+                     <span className="number">1</span>
+                     <h3 className="GridCardText">
+                     Exquisite Flavors
+                     </h3>
+                     <p className="gridParagraph">
+                     Our chefs craft each dish with the finest ingredients and culinary techniques to deliver unforgettable taste experiences
+                     </p>
+                   </div>
                    <div className="GridCard">
                      <span className="number">1</span>
                      <h3 className="GridCardText">
@@ -125,7 +143,7 @@ const Menu = () => {
                    </div>
                 </div>
               </div>
-           
+              </div>
     </div>
   )
 }
