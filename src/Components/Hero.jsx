@@ -10,12 +10,6 @@ import 'aos/dist/aos.css';
 const Hero = () => {
   useEffect(()=>{
     AOS.init({
-      // easing:"ease-in-quad",
-      // delay:0,
-      // duration:2000,
-      // once:false,
-      // mirror:true
-
       disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
       startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
       initClassName: 'aos-init', // class applied after initialization
