@@ -20,6 +20,7 @@
 .menuName{
     padding: 10px;
     font-weight: normal;
+    font-size: 1rem;
 }
 .menuInfo{
     font-size: 1rem;
@@ -27,8 +28,34 @@
     font-weight: lighter;
      padding: 10px;
 }
-
-
+.view{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border: 3px thin black;
+    border-radius: 10px;
+}
+.star{
+    display: flex;
+    margin: 10px;
+}
+.Mainstar{
+    display: flex;
+}
+.number{
+    font-weight: bolder;
+    border: 2px  black solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+.GridCard{
+    border: 5px solid red;
+    padding: 10px;
+    margin: 12px;
+}
+.asideGrid{
+    display: grid;
+}
 @media only screen and (max-width:768px) {
     .deliveryThreeBOx{
         display: flex;
