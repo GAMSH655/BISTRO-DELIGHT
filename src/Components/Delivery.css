@@ -25,12 +25,17 @@
     background-color: black;
     color: white;
 }
+.DeliveryBox:hover .deliveryIcons{
+    transition: .5s all ease-in;
+    background-color: black;
+    color:hsl(16, 96%, 51%);
+}
 .deliveryIcons{
   font-size: 2rem;
   margin: 10px;
 }
 .deliveryIcons:hover{
-    color: #FA4A0C;
+    color: hsl(16, 96%, 51%);
 }
 .deliveryTitle{
     font-size: medium;
