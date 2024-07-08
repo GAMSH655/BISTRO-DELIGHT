@@ -1,0 +1,48 @@
+
+.menuGrid{
+    display: grid;
+   margin-left: 50px;
+    grid-template-columns: repeat(3 , 1fr);
+    /* justify-content: center; */
+}
+.menuPage{
+    margin: 30px;
+}
+.MenuCard{
+    width: 300px;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+.menuImg{
+    width: 300px;
+}
+.menuName{
+    padding: 10px;
+    font-weight: normal;
+}
+.menuInfo{
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: lighter;
+     padding: 10px;
+}
+
+
+@media only screen and (max-width:768px) {
+    .deliveryThreeBOx{
+        display: flex;
+        flex-wrap: wrap;
+    } 
+    .delievryTextBox{
+        width: 350px;
+        margin: 0px;
+    }
+    .menuGrid{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content:center;
+       align-items: center;
+       margin-left:0px;
+    }
+    }
