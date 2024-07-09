@@ -59,9 +59,9 @@
 .GridCard{
     margin: 20px;
     padding: 20px;
-      width: 100%;
-      box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.185);
-      border-radius: 15px;
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.185);
+    border-radius: 15px;
 }
 .gridParagraph{
     font-size: rem;
@@ -82,7 +82,7 @@
     display: flex;
 }
 .table{
-    width:40%;
+    width:100%;
 }
 
 @media only screen and (max-width:768px) {
@@ -111,6 +111,9 @@
         justify-content: space-around;
         flex-wrap: wrap;
         margin-top: 30px;
+     }
+     .GridCard{
+        margin: 0px;
      }
      .table{
         width: 100%;

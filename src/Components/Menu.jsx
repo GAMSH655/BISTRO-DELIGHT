@@ -104,17 +104,17 @@ const Menu = () => {
               
               <button className="view">view menu</button>
               </div>
-              <div className="FloorGrid">
+              <div className="FloorGrid"  data-aos="zoom-in-right">
                  <h3 className="why">why choose bristo</h3>
                  <p className="why">Reasons why Bristo Delight is the number one stop for classic dining</p>
-
+{/*  */}
                <div className="AsideFlex">
                  <img src={Table} alt="" className='table' />
 
                 <div className="asideGrid">
                    <div className="GridCard">
                      <span className="number">1</span>
-                     <h3 className="GridCardText">
+                     <h3 className="GridCardText" >
                      Exquisite Flavors
                      </h3>
                      <p className="gridParagraph">

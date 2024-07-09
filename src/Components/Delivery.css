@@ -14,18 +14,19 @@
 }
 .deliveryThreeBOx{
     display: flex;
+    justify-content: center;
 }
 .DeliveryBox{
     margin: 10px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.171);
     border-radius: 15px;
-    width: 100%;
+    width: 270px;
 }
 .DeliveryBox:hover{
     transition: .5s all ease-in;
     background-color: black;
     color: white;
-    transform: scale(1.1);
+   transform: scale(1.1);
 }
 .DeliveryBox:hover .deliveryIcons{
     transition: .5s all ease-in;
@@ -35,9 +36,6 @@
 .deliveryIcons{
   font-size: 2rem;
   margin: 10px;
-}
-.deliveryIcons:hover{
-    color: hsl(16, 96%, 51%);
 }
 .deliveryTitle{
     font-size: medium;

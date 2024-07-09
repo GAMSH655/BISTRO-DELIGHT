@@ -32,3 +32,68 @@
 .logoSpan{
   display: block;
 }
+.MenuBtn{
+    padding: 8px;
+    width: 140px;
+    border:none;
+    outline: none;
+    background-color: #FA4A0C;
+    border-radius: 10px;
+    color: black;
+    text-transform: capitalize;
+    display: none;
+    font-size: 1.3rem;
+}
+.MOB_logoConatiner{
+    display: none;
+    display: flex;
+}
+@media only screen and (max-width:768px) {
+    .headerContainer{
+       /* display: none; */
+    }
+    .MenuBtn{
+        display: block;
+    }
+    .MobLinks{
+        display: block;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 1rem;
+        font-weight: normal;
+        margin: 20px;
+        padding: 20px;
+        color: black;
+    }
+    .navLinks{
+        display: none;
+    }
+    .headerBTn{
+        display: none;
+    }
+    .MobileHeader{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .MOB_logoConatiner{
+        display: block;
+        width: 400px;
+    }
+    .MobheaderBTn{
+        display: block;
+        padding: 8px;
+        width: 180px;
+        border:none;
+        outline: none;
+        background-color: #FA4A0C;
+        border-radius: 10px;
+        color: black;
+        text-transform: capitalize;
+        margin: 0 auto;
+    }
+    .mobile_navlink_container{
+        text-align:center;
+        padding: 20px;
+    }
+}
