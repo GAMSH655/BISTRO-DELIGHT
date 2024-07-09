@@ -32,6 +32,6 @@
         text-transform: capitalize;
     }
     .chair{
-        /* margin: 50px; */
+     width: 300px;
     }
 }

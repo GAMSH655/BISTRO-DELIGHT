@@ -5,6 +5,7 @@ import Hero from './Components/Hero'
 import About from './Components/About'
 import Delivery from './Components/Delivery'
 import Menu from './Components/Menu'
+import Customer from './Components/Customer'
 function App() {
 
 
@@ -15,6 +16,7 @@ function App() {
       <About/>
       <Delivery/>
       <Menu/>
+      <Customer/>
     </>
   )
 }
