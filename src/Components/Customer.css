@@ -1,0 +1,97 @@
+.customerComponent{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.underLay{
+    margin-top: 90px;
+}
+.innerLay{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.LaytextBox{
+    margin: 20px;
+}
+.OverLayName{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+.customerImg{
+    height: 92px;
+    width: 93px;
+}
+.innerLay{
+    /* background-color: blanchedalmond; */
+    margin: 40px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.171);
+    border-radius: 20px;
+}
+.pole{
+    width: 30px;
+    height:180px;
+    position: absolute;
+    margin: 50px;
+    left: -60px;
+    bottom: 20px;
+    background-color: #C2C2C2;;
+}
+.circle{
+    background-color: #C2C2C2;
+    height:50px;
+    width: 50px;
+    position: relative;
+    z-index: 1;
+    top: 140px;
+    left: -170px;
+    border-bottom: none;
+    border-top-right-radius: 50%;
+}
+.underLay:hover .pole  {
+background-color:#FA4A0C;
+  transition: .5s ease-in all;
+}
+.underLay:hover  .circle  {
+background-color:#FA4A0C;
+  transition: .5s ease-in all;
+}
+.qoutes{
+    /* font-size: 5rem; */
+    color: #C2C2C2;
+    position:absolute;
+    bottom:10x;
+    right: 5px;
+    margin: 10px;
+     margin-bottom: 80px;
+    /* left:300px; */
+}
+.underLay:hover .qoutes{
+   color:#FA4A0C;
+  transition: .5s ease-in all;
+}
+.customeTitle , .customP{
+    margin: 10px;
+}
+.CustImg{
+    margin: 10px;
+}
+@media only  screen  and (max-width:768px){
+    .customerComponent{
+        margin-top: 0px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .CustImg{
+        margin: 25px;
+        width: 300px;
+        height: 300px;
+    }
+    .innerLay{
+        /* background-color: blanchedalmond; */
+        margin: 10px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.171);
+        border-radius: 20px;
+    }
+}
