@@ -118,7 +118,7 @@ background-color:#FA4A0C;
         margin-top: 0px;
         display: flex;
         justify-content: space-evenly;
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
     }
     .CustImg{
         margin-top: 25px;
