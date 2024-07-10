@@ -121,9 +121,11 @@ background-color:#FA4A0C;
         flex-wrap: wrap;
     }
     .CustImg{
-        margin: 25px;
-        width: 300px;
-        height: 300px;
+        margin-top: 25px;
+        /* width: 300px;
+        height: 300px; */
+        width: 90%;
+        transform: translateX(13px);
     }
     .innerLay{
         margin: 10px;
@@ -147,5 +149,15 @@ background-color:#FA4A0C;
     .customerImg{
         height: 50px;
         width: 80px;
+    }
+    .partner{
+    flex-wrap: wrap;
+    }
+    .asideCustomerDiv{
+        margin-top: 30px;
+    }
+    .viewM{
+    width: 80%;
+    margin-left: 50px;
     }
 }
