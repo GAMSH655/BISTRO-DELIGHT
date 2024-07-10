@@ -5,6 +5,7 @@ import Sarah from "../assets/Sarah.png"
 import Ridwan from "../assets/Ridwan.png"
 import Qoute from "../assets/Qoute.svg"
 import CustImg from "../assets/Custom.png"
+import Meat from "../assets/Meat.png"
 import { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -51,6 +52,7 @@ const Customer = () => {
     },
   ]
   return (
+    <div>
     <div className='customerComponent'>
         <div className="underLay">
             {
@@ -73,6 +75,20 @@ const Customer = () => {
           <h3 className="customeTitle">What Our Customers Say</h3>
           <p className="customP">Our outstanding customer reviews speak for themselves, highlighting our commitment to quality and exceptional dining experiences</p>
             <img src={CustImg} alt=""  className='CustImg'/>
+          </div>
+     </div>
+         <button className="viewM">view menu</button>
+
+          <div className="partner">
+            <div className="PartnerDivText">
+              <h3 className="patnerTtile">
+              Partner With Bristo Delight
+              </h3>
+              <p className="pP">
+              We’re always looking for passionate farmers and agricultural suppliers to join our network. At Bistro Delight, we prioritize fresh, high-quality ingredients sourced sustainably from local producers
+              </p>
+            </div>
+            <img src={Meat} alt=""  className='meat'/>
           </div>
      </div>
   )
