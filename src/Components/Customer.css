@@ -164,4 +164,12 @@ background-color:#FA4A0C;
         width: 300px;
         margin-top:0px;
     }
+    .patnerTtile{
+        margin: 10px;
+        font-size:1.5rem;
+    }
+    .pP{
+        margin:10px;
+        font-weight:normal;
+    }
 }
