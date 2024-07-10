@@ -56,11 +56,9 @@ const Customer = () => {
             {
               CustomerCollections.map(({customerName, customerImg, CustomerFeedBAck} , index)=>{
                 
-                return <div  className="innerLay" key={index} data-aos="zoom-in-up">
-                  {/* <div className="pole"></div>
-                  <div className="circle"></div> */}
-                 {/* <span className='qoutes'>{Qoute}</span> */}
-                 <img src={Qoute} alt="" className='qoutes' />
+                return <div  className="innerLay" key={index} >
+                
+                 <span className='qoutes'>&rdquo;</span>
                   <img src={customerImg} alt="" className='customerImg' /> 
                  <div className="LaytextBox">
                 <h3 className="OverLayName">{customerName}</h3>

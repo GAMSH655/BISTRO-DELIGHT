@@ -27,6 +27,7 @@
     margin: 40px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.171);
     border-radius: 20px;
+    position: relative;
 }
 .pole{
     width: 30px;
@@ -48,30 +49,34 @@
     border-bottom: none;
     border-top-right-radius: 50%;
 }
-.underLay:hover .pole  {
+/* .underLay:hover .pole  {
 background-color:#FA4A0C;
   transition: .5s ease-in all;
 }
 .underLay:hover  .circle  {
 background-color:#FA4A0C;
   transition: .5s ease-in all;
+} */
+.innerLay:hover .qoutes{
+    color: #FA4A0C;
+     transition: .5s ease-in all;
 }
 .qoutes{
-    /* font-size: 5rem; */
-    color: #C2C2C2;
-    position:absolute;
-    bottom:10x;
+    position: absolute;
     right: 5px;
-    margin: 10px;
-     margin-bottom: 80px;
-    /* left:300px; */
-}
-.underLay:hover .qoutes{
-   color:#FA4A0C;
-  transition: .5s ease-in all;
+    top: 2px;
+    font-size: 5rem;
+    font-weight: bolder;
 }
 .customeTitle , .customP{
     margin: 10px;
+}
+.OverLayName{
+    margin: 10px;
+}
+.overLayText{
+    margin: 10px;
+    font-weight: normalr;
 }
 .CustImg{
     margin: 10px;
@@ -94,4 +99,19 @@ background-color:#FA4A0C;
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.171);
         border-radius: 20px;
     }
+.qoutes{
+    font-size: 5.5rem;
+    font-weight: bolder;
+    color: #C2C2C2;
+     position:absolute; 
+    bottom:10x;
+    right: 5px; 
+    margin-top: 20px;
+     margin-bottom: 50px; 
+    left:300px;
+}
+    .qoutes{
+        font-size: 2rem;
+    }
+    
 }
