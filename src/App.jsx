@@ -6,6 +6,7 @@ import About from './Components/About'
 import Delivery from './Components/Delivery'
 import Menu from './Components/Menu'
 import Customer from './Components/Customer'
+import Faqs from'./Components/Faqs'
 function App() {
 
 
@@ -14,9 +15,10 @@ function App() {
       <Header/>
       <Hero/>
       <About/>
-      {/* <Delivery/> */}
+      <Delivery/>
       <Menu/>
       <Customer/>
+      <Faqs/>
     </>
   )
 }

@@ -59,7 +59,8 @@
 .GridCard{
     margin: 20px;
     padding: 20px;
-    width: 100%;
+    width: 296px;
+    height: 237px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.185);
     border-radius: 15px;
 }
@@ -75,14 +76,15 @@
 }
 .asideGrid{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
 .AsideFlex{
     display: flex;
 }
 .table{
-    width:100%;
+    width:548px;
+    height: 693px;
 }
 
 @media only screen and (max-width:768px) {

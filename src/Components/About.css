@@ -1,7 +1,7 @@
 .ABout{
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
+    /* padding: 20px; */
 }
 .about_Title{
     font-size: 1.5rem;
@@ -15,9 +15,12 @@
 }
 .ABout_text_Box{
     margin: 20px;
+    width: 548px;
+    height: 490px;
 }
 .chair{
-    width: 50%;
+   width: 589px;
+   height: 499px;
 }
 @media only screen and (max-width:768px) {
     .ABout{
