@@ -41,7 +41,7 @@
 .faq_Container_Header{
    display: flex;
    justify-content: space-between;
-   margin-top: 50px;
+   margin-top: 15px;
    width: 100%;
    background-color: hotpink;
 }
