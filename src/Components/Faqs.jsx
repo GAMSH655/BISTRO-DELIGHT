@@ -32,6 +32,8 @@ const Faqs = () => {
     ]
   return (
     <div className='faqsComponents'>
+        <h3 className='faqTitle'> Frequently Asked Questions</h3>
+        <p className='Faqs_P'>Got questions? We’ve got answers! If you don’t find what you’re looking for, feel free to contact us</p>
         {/* <div className="faqsContainer"> */}
             {
                  Array_of_Questions.map(({Questions , Answer} , index) =>{

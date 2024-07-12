@@ -69,4 +69,17 @@
     .answerContainer{
     padding-top: 10px;
     }
+    .faqTitle{
+        font-size: 1.2rem;
+        margin: 20px;
+    }
+    .Faqs_P{
+        font-family: Poppins;
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 30px;
+        text-align: center;
+        position: relative;
+        margin: 20px;
+    }
 }
