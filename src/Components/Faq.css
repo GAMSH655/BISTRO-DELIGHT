@@ -17,12 +17,9 @@
 .showQuestion{
     position: absolute;
     right: 200px;
-    color: red;
     font-size: 1.5rem;
     font-weight: bolder;
-    margin: 20px;
-    /* bottom: 0px ; */
-}
+    margin: 20px;}
 .Questions{
     font-family: Poppins;
     font-size: 24px;
@@ -41,9 +38,10 @@
 .faq_Container_Header{
    display: flex;
    justify-content: space-between;
-   margin-top: 15px;
+   margin-top: 10px;
    width: 100%;
-   background-color: hotpink;
+   border: 3px thing black;
+   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.075);
 }
 .answerContainer{
     max-height: 0;
