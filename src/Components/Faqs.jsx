@@ -37,7 +37,7 @@ const Faqs = () => {
         {/* <div className="faqsContainer"> */}
             {
                  Array_of_Questions.map(({Questions , Answer} , index) =>{
-                    return  <div className='' key={index}  onClick={HandleToggle}>
+                    return  <div className='FAQBOx' key={index}  onClick={HandleToggle}>
                     <div className="faq_Container_Header" >
                    <p className="Questions">{Questions}</p> 
                    <p className="showQuestion">{openQuestion ? <FaMinus/> : <FaPlus/>}</p>
