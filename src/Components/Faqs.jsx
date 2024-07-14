@@ -48,9 +48,18 @@ const Faqs = () => {
                         </div>
                  } )
             }
-            
 
-        {/* </div> */}
+            <div className="newsLetterDiv">
+                 <h3 className="signUp">Sign Up To Our Newsletter</h3>
+                 <div className="inputDiv">
+                 <input type="text" placeholder='enter your email here' />
+                 <button className='newsLetterBTn_show'>submit</button>
+                 <br />
+                 <button className='newsLetterBTn_None'>submit</button>
+                 </div>
+               
+                <p className="signText">Your privacy is important to us, we will never spam you or share your info with third parties. You can unsubscribe anytime</p>
+            </div>
     </div>
   )
 }
