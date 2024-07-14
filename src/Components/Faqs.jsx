@@ -31,23 +31,26 @@ const Faqs = () => {
       },
     ]
   return (
-    <div className='faqsComponents'>
+    <div className='faqsComponents' >
         <h3 className='faqTitle'> Frequently Asked Questions</h3>
         <p className='Faqs_P'>Got questions? We’ve got answers! If you don’t find what you’re looking for, feel free to contact us</p>
-        {/* <div className="faqsContainer"> */}
-            {
-                 Array_of_Questions.map(({Questions , Answer} , index) =>{
-                    return  <div className='FAQBOx' key={index}  onClick={HandleToggle}>
-                    <div className="faq_Container_Header" >
-                   <p className="Questions">{Questions}</p> 
-                   <p className="showQuestion">{openQuestion ? <FaMinus/> : <FaPlus/>}</p>
-                   </div>
-                      <div className={`answerContainer ${openQuestion ? "active" : " "}`}>
-                      <p className="answers">{Answer}</p>
-                      </div>
-                        </div>
-                 } )
-            }
+         {
+          Array_of_Questions.map((Acc , index)=>{
+            return <div >
+              <div className='FAQBOx' >
+                 <div className="faq_Container_Header"  onClick={HandleToggle} key={index}> 
+                 <p className='Questions'>{Acc.Questions}</p> 
+                 <p className='showQuestion'>{openQuestion ? <FaMinus/> : <FaPlus/>}</p>
+                 </div>
+                 <div className= {`answerContainer ${openQuestion ? "active" : ""}`}>
+                  <p className='answers'>{Acc.Answer}</p>
+                </div>
+                </div>
+               
+             
+            </div>
+          })
+         }
 
             <div className="newsLetterDiv">
                  <h3 className="signUp">Sign Up To Our Newsletter</h3>

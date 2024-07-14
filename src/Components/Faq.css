@@ -19,6 +19,7 @@
     right: 200px;
     font-size: 1.5rem;
     font-weight: bolder;
+    bottom: 10px;
     margin: 20px;}
 .Questions{
     font-family: Poppins;
@@ -47,6 +48,7 @@
    margin-top: 10px;
    width: 100%;
    border: 3px thing black;
+   position: relative;
    
 }
 .answerContainer{

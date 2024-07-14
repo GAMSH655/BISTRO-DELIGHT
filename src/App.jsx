@@ -7,6 +7,7 @@ import Delivery from './Components/Delivery'
 import Menu from './Components/Menu'
 import Customer from './Components/Customer'
 import Faqs from'./Components/Faqs'
+import Footer from "../src/Components/Footer"
 function App() {
 
 
@@ -19,6 +20,7 @@ function App() {
       <Menu/>
       <Customer/>
       <Faqs/>
+      <Footer/>
     </>
   )
 }
