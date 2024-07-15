@@ -54,4 +54,8 @@ color: white;
  .Footer_Logo_Container{
     margin: 20px;
  }
+ .footer_p{
+    padding: 0px;
+    margin-top: 10px;
+ }
 }

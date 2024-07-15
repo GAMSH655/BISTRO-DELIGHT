@@ -4,9 +4,9 @@ import { useState } from 'react'
 import { FaPlus , FaMinus } from 'react-icons/fa'
 const Faqs = () => {
 
-    const [openQuestion , setOpenQuestion] = useState(false);
-    function HandleToggle(){
-        setOpenQuestion(!openQuestion)
+    const [openQuestion , setOpenQuestion] = useState(null);
+     const  HandleToggle = (index) =>{
+       setOpenQuestion(openQuestion === index ? null : index )
     }
     const Array_of_Questions = [
       {
@@ -38,11 +38,11 @@ const Faqs = () => {
           Array_of_Questions.map((Acc , index)=>{
             return <div >
               <div className='FAQBOx' >
-                 <div className="faq_Container_Header"  onClick={HandleToggle} key={index}> 
+                 <div className={`faq_Container_Header ${openQuestion ? "" : index }`} onClick={()=>HandleToggle(index)}  key={index} > 
                  <p className='Questions'>{Acc.Questions}</p> 
-                 <p className='showQuestion'>{openQuestion ? <FaMinus/> : <FaPlus/>}</p>
+                 <p className='showQuestion'>{openQuestion  === index ? <FaMinus/> : <FaPlus/>}</p>
                  </div>
-                 <div className= {`answerContainer ${openQuestion ? "active" : ""}`}>
+                 <div className= {`answerContainer ${openQuestion  === index ? "active" : ""}`}>
                   <p className='answers'>{Acc.Answer}</p>
                 </div>
                 </div>
