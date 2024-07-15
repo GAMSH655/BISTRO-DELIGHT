@@ -1,40 +1,42 @@
 .ABout{
-    display: flex;
-    justify-content: space-evenly;
     /* padding: 20px; */
 }
 .about_Title{
     font-size: 1.5rem;
     padding: 9px;
     text-transform: capitalize;
+    color: orangered;
+    text-align: center;
 }
 .ABout_p{
-    padding: 9px;
+    padding: 1em;
     font-weight: lighter;
     font-family: serif;
+    line-height: 2em;
 }
 .ABout_text_Box{
-    margin: 20px;
+    /* margin: 20px;
     width: 548px;
-    height: 490px;
+    height: 490px; */
 }
-.chair{
-   width: 589px;
-   height: 499px;
-}
-@media only screen and (max-width:768px) {
+ .ABout img{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+ }
+@media only screen and (min-width:768px) {
     .ABout{
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        padding: 0px;
+       display: flex;
     }
     .about_Title{
         font-size: 1.5rem;
         padding: 4px;
         text-transform: capitalize;
     }
-    .chair{
-     width: 300px;
+    .ABout img{
+        align-self: center;
+     width: 60%;
+     margin: 0 20px;
+     height: 300px;
     }
 }

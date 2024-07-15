@@ -1,35 +1,38 @@
-.HErodiv{
-    background-color: #121212;
-    display: flex;
+.hero__div{
+    background-color: black;
     justify-content: space-evenly;
+    display: flex;
     width: 100%;
+    align-items: center;
 }
-.heroImg{
-    width: 500px;
+
+
+.hero__div img{
+    width: 80%;
+    max-width: 550px;
     height: 500px;
 }
 .exp{
     font-size: x-large;
     font-weight: bolder;
-    color: white;
+    color: #FA4A0C;
     font-size: 2rem;
     text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .bistro{
       font-size: x-large;
     font-weight: bolder;
-    color:#FA4A0C;
+    color:whitesmoke;
     font-size: 2rem;
     text-transform: capitalize;
     margin-top: 20px;
+    text-shadow: 0px 0px 5px orange;
 }
-.HEroTExtBox{
-    margin-top: 170px;
-    margin-left: 50px;
-}
+
 .heroP{
-    font-size:medium;
-    font-weight: normal;
+    line-height: 2em;
+    font-style: italic;
     color: white;
     font-size: 15px;
    text-transform: lowercase;
@@ -43,12 +46,15 @@
     outline: none;
     background-color: #FA4A0C;
     border-radius: 10px;
-    color:white;
+    color:black;
+    font-weight: bolder;
     text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 15px;
 }
 .threeBoxex{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -63,23 +69,31 @@
     border-radius: 7px;
     position: relative;
     bottom: 50px;
+    transition: all 2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box img {
+    width: 50px;
+    height: 50px;
 }
 .boxTExt{
-    padding: 9px;
-    font-weight: 200;
-    font-size: 1rem;
-    font-weight: normal;
+   margin-top: 10px;
+   font-style: italic;
+   font-weight: bolder;
 }
 .box:hover{
-    transition: .5s all ease;
-    background: black;
+    background: #0a0a0a;
     box-shadow: 2px -2px 1px 1px #fa4b0c7a;
     color: white;
 }
 .boxExtraInfo{
-    padding: 9px;
-    font-size: 1.2rem;
-    font-weight: lighter;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 5px;
+  font-weight: bold;
 }
 @media only screen and (max-width:768px) {
     .HErodiv{
