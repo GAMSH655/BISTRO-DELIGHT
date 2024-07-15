@@ -33,7 +33,7 @@ const Hero = () => {
   })
   return (
     <div>
-        <div class="hero__div">
+        <div className="HErodiv">
               <div className='HEroTExtBox'>
                 <h3 className="exp">experince culinary</h3>
                 <h3  className="exp"> excellent at</h3>
