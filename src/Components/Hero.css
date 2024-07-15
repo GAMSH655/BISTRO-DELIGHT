@@ -2,6 +2,7 @@
     background-color: #121212;
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
 }
 .heroImg{
     width: 500px;
