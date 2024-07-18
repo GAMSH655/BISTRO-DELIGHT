@@ -58,7 +58,7 @@ const Delivery = () => {
          </div>
          <div className="DeliveryBox" data-aos="zoom-in-left">
          <PiTruck className='deliveryIcons'/>
-          <h2 className="deliveryTitle">delivery</h2>
+          <h3 className="deliveryTitle">delivery</h3>
             <p  className='delievryText'>Our delivery team will bring your meal straight to your door, ensuring it arrives quickly</p>
          </div>
        </div> 
